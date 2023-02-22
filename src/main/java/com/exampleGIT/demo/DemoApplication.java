@@ -9,8 +9,11 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 		
-		System.out.println("goodbye");
+		System.out.println("questo è il second");
+		ciao();
 	}
 	
-
+	public static String ciao() {
+		return "popolo";
+	}
 }
