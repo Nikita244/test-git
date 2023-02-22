@@ -1,0 +1,220 @@
+D:\ECLIPSE_WORKSPACE\demoGIT>git init
+the next time Git touches it
+warning: in the working copy of 'mvnw', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it 
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it  the next time Git touches itwarning: in the working copy of 'mvnw', LF will be replaced by CRLF the next time Git touches it     the next time Git touches itwarning: in the working copy of 'mvnw', LF will be replaced by CRLF the next time Git touches it     
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it  
+warning: in the working copy of 'src/main/java/com/exampleGIT/demo/DemoApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/exampleGIT/demo/DemoApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git add .
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git commit -m"test1"
+[master (root-commit) 4c040b1] test1
+ 9 files changed, 623 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.jar
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/exampleGIT/demo/DemoApplication.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/exampleGIT/demo/DemoApplicationTests.java
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+D:\ECLIPSE_WORKSPACE\demoGIT>https://github.com/Nikita244/test-git.git
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>https://github.com/Nikita244/test-git.git git push
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>https://github.com/Nikita244/test-git.git push    
+"https:" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git stash
+No local changes to save
+
+ * [new branch]      master -> master
+branch 'master' set up to track 'https://github.com/Nikita244/test-git.git/master'.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>
+
+ * [new branch]      master -> master
+branch 'master' set up to track 'https://github.com/Nikita244/test-git.git/master'.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>
+
+
+ * [new branch]      master -> master
+branch 'master' set up to track 'https://github.com/Nikita244/test-git.git/master'.
+
+ * [new branch]      master -> master
+ * [new branch]      master -> master
+branch 'master' set up to track 'https://github.com/Nikita244/test-git.git/master'.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git  .  github.com/Nikita244/test-git.git git push44/test-git.git master
+git: '.' is not a git command. See 'git --help'.
+
+The most similar commands are
+        am
+        gc
+        mv
+        p4
+        rm
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git add .
+warning: in the working copy of 'src/main/java/com/exampleGIT/demo/DemoApplication.java', LF will be replaced by CRLF the next time Git touches it
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git commit -m"hello people"
+[master 3b16aef] hello people
+ 1 file changed, 2 insertions(+)
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (9/9), 648 bytes | 324.00 KiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/Nikita244/test-git.git
+   4c040b1..3b16aef  master -> master
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git pull
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 9 (delta 2), reused 9 (delta 2), pack-reused 0
+Unpacking objects: 100% (9/9), 613 bytes | 2.00 KiB/s, done.
+From https://github.com/Nikita244/test-git
+ * branch            master     -> FETCH_HEAD
+Updating 3b16aef..d39f378
+Fast-forward
+ src/main/java/com/exampleGIT/demo/DemoApplication.java | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git pull
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (3/3), done.
+nothing to commit, working tree clean
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git checkout master
+Already on 'master'
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git checkout drcond
+error: pathspec 'drcond' did not match any file(s) known to git
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git checkout second
+error: pathspec 'second' did not match any file(s) known to git
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git pull
+Already on 'master'
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git checkout second
+error: pathspec 'second' did not match any file(s) known to git
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git pull
+From https://github.com/Nikita244/test-git
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git branch third
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git checkout third
+Switched to branch 'third'
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git status
+On branch third
+nothing to commit, working tree clean
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git branch -a
+  master
+* third
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push third
+fatal: The current branch third has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream third third
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push --set-upstream third third
+fatal: 'third' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+D:\ECLIPSE_WORKSPACE\demoGIT> git push --set-upstream https://github.com/Nikita244/test-git.
+fatal: The current branch third has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/Nikita244/test-git. third
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git push --set-upstream https://github.com/Nikita244/test-git. third
+remote: Repository not found.
+fatal: repository 'https://github.com/Nikita244/test-git./' not found
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git branch prova origin
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git branch prova origin
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git branch prova origin
+fatal: not a valid object name: 'origin'
+
+D:\ECLIPSE_WORKSPACE\demoGIT>git branch -a
+* master
+
+D:\ECLIPSE_WORKSPACE\demoGIT>
